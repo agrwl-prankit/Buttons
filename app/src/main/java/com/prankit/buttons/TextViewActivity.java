@@ -16,6 +16,7 @@ public class TextViewActivity extends AppCompatActivity {
         View btn = findViewById(R.id.goToButton);
         View radio_btn = findViewById(R.id.goToRadioButton);
         View toggle_btn = findViewById(R.id.goToToggleButton);
+        View check_box = findViewById(R.id.goToCheckBox);
 
         btn.setOnClickListener(v -> {
             // code which will run when user will click this text view
@@ -30,6 +31,11 @@ public class TextViewActivity extends AppCompatActivity {
         toggle_btn.setOnClickListener(v -> {
             // code which will run when user will click this text view
             startActivity(new Intent(TextViewActivity.this, ToggleButtonActivity.class));
+        });
+
+        check_box.setOnClickListener(v -> {
+            // code which will run when user will click this text view
+            startActivity(new Intent(TextViewActivity.this, CheckBoxActivity.class));
         });
     }
 

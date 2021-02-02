@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name=".CheckBoxActivity" />
         <activity android:name=".ButtonActivity" />
-        <activity android:name=".RadioButtonActivity"/>
-        <activity android:name=".ToggleButtonActivity"/>
+        <activity android:name=".RadioButtonActivity" />
+        <activity android:name=".ToggleButtonActivity" />
         <activity android:name=".TextViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

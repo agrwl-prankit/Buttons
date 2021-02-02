@@ -7,63 +7,83 @@
     android:layout_height="match_parent"
     tools:context=".TextViewActivity">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:layout_centerInParent="true">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <TextView
-            android:layout_width="300dp"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
             android:gravity="center"
-            android:layout_height="wrap_content"
-            android:text="Go to :"
-            android:textColor="@color/black"
-            android:textSize="40sp"
-            android:padding="10dp"
-            android:textStyle="bold"
-            android:layout_margin="20dp"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true">
 
-        <TextView
-            android:id="@+id/goToButton"
-            android:layout_width="300dp"
-            android:gravity="center"
-            android:layout_height="wrap_content"
-            android:text="Button Activity"
-            android:textSize="30sp"
-            android:padding="10dp"
-            android:textStyle="bold"
-            android:layout_margin="20dp"
-            android:textColor="@color/white"
-            android:background="@color/design_default_color_primary"/>
+            <TextView
+                android:layout_width="300dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Go to :"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"/>
 
-        <TextView
-            android:id="@+id/goToRadioButton"
-            android:layout_width="300dp"
-            android:gravity="center"
-            android:layout_height="wrap_content"
-            android:text="Radio Button Activity"
-            android:textSize="30sp"
-            android:padding="10dp"
-            android:textStyle="bold"
-            android:layout_margin="20dp"
-            android:textColor="@color/white"
-            android:background="@color/design_default_color_primary"/>
+            <TextView
+                android:id="@+id/goToButton"
+                android:layout_width="300dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Button Activity"
+                android:textSize="30sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:textColor="@color/white"
+                android:background="@color/design_default_color_primary"/>
 
-        <TextView
-            android:id="@+id/goToToggleButton"
-            android:layout_width="300dp"
-            android:gravity="center"
-            android:layout_height="wrap_content"
-            android:text="Toggle Button Activity"
-            android:textSize="30sp"
-            android:padding="10dp"
-            android:textStyle="bold"
-            android:layout_margin="20dp"
-            android:textColor="@color/white"
-            android:background="@color/design_default_color_primary"/>
+            <TextView
+                android:id="@+id/goToRadioButton"
+                android:layout_width="300dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Radio Button Activity"
+                android:textSize="30sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:textColor="@color/white"
+                android:background="@color/design_default_color_primary"/>
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/goToToggleButton"
+                android:layout_width="300dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Toggle Button Activity"
+                android:textSize="30sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:textColor="@color/white"
+                android:background="@color/design_default_color_primary"/>
+
+            <TextView
+                android:id="@+id/goToCheckBox"
+                android:layout_width="300dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Check Box Activity"
+                android:textSize="30sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:textColor="@color/white"
+                android:background="@color/design_default_color_primary"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </RelativeLayout>
